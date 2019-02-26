@@ -18,8 +18,10 @@ const commentRoutes     = require("./routes/comments"),
       indexRoutes       = require("./routes/index");
 
 // seedDB(); //seed the database
-// mongoose.connect('mongodb://localhost:27017/yelp_camp', { useNewUrlParser: true });
-mongoose.connect("mongodb+srv://corritaylor:nin82Jusa321@cluster0-akfvk.mongodb.net/test?retryWrites=true/", { useNewUrlParser: true });
+
+mongoose.connect(process.env.DATABASEURL, { useNewUrlParser: true });
+// mongoose.connect("mongodb+srv://corritaylor:nin82Jusa321@cluster0-akfvk.mongodb.net/test?retryWrites=true/", { useNewUrlParser: true });
+
 
 
 mongoose.set('useFindAndModify', false);
