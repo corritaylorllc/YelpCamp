@@ -202,3 +202,8 @@ Update	      |     /campgrounds/:id  |     PUT       | Show info about one campg
 * Add price to views/campgrounds/new.ejs and views/campgrounds/edit.ejs (new and edit forms)
 * Add price to views/camprounds/show.ejs (campground show page)
 
+## Deploy on the site
+* Create a heroku account
+* Create a mLab account
+* Change deployment to a DATABASEURL locally
+* Use Config vars on heroku to set DATABASEURL seperately from local deployment
