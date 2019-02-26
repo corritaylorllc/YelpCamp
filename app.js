@@ -20,9 +20,6 @@ const commentRoutes     = require("./routes/comments"),
 // seedDB(); //seed the database
 
 mongoose.connect(process.env.DATABASEURL, { useNewUrlParser: true });
-// mongoose.connect("mongodb+srv://corritaylor:nin82Jusa321@cluster0-akfvk.mongodb.net/test?retryWrites=true/", { useNewUrlParser: true });
-
-
 
 mongoose.set('useFindAndModify', false);
 
