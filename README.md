@@ -1,6 +1,3 @@
-Deployed on heroku https://yelp-camp-cmt.herokuapp.com/
-The following is a list of what happened to get to the final deployed version of this application.
-
 # YelpCamp Steps
 * Add Landing Page
 * Add Campgrounds Page that lists all campgrounds
